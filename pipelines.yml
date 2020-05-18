@@ -34,7 +34,7 @@ pipelines:
           inputResources:
             - name: example_dbp_repo
           integrations:
-            - name: demoArt # replace with your Artifactory integration
+            - name: ArtifactoryIntegration # replace with your Artifactory integration
 
       - name: docker_push
         type: DockerPush
