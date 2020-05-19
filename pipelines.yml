@@ -54,7 +54,7 @@ pipelines:
           #inputSteps:
             #- name: docker_push
           #outputResources:
-            #- name: build_info_dbp
+            #- name: build_info_dbp 
 
       - name: promote_build
         type: PromoteBuild
