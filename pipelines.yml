@@ -59,7 +59,7 @@ pipelines:
       - name: promote_build
         type: PromoteBuild
         configuration:
-          targetRepository: promoted-pipelines  # replace with your target repo. Step will fail if this repo doesn't exist
+          targetRepository: docker-prod  # replace with your target repo. Step will fail if this repo doesn't exist
           integrations:
             - name: ArtifactoryIntegration # replace with your Artifactory integration
           inputResources:
